@@ -28,29 +28,30 @@ body{
 }
 .profileimage .imagebx
 {
-    position: relative;
+    position: sticky;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 500%;
     overflow: hidden;
 
 }
 .profileimage .imagebx img
 {
     position: relative;
-    top: 0;
+    top:0;
     left: 0;
-    width: 100%;
-    height: 150%;
+    width: 124%;
+    height: 122%;
     object-fit: cover;
-
+ 
 }
 .profileimage
 {
     position: relative;
     display: flex;
+
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     padding-bottom: 20px;
 }
 .profileimage h2{
